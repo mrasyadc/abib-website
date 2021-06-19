@@ -1,0 +1,744 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Presitas</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicons -->
+    <link href="{{ url_for('static', filename= 'img/logopresitas.png') }}" rel="icon">
+    <link href="{{ url_for('static', filename= 'img/logopresitas.png')}}" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900"
+          rel="stylesheet">
+
+    <!-- Bootstrap CSS File -->
+    <link href="{{ url_for('static', filename= 'lib/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="{{ url_for('static', filename= 'lib/nivo-slider/css/nivo-slider.css')}}" rel="stylesheet">
+    <link href="{{ url_for('static', filename= 'lib/owlcarousel/owl.carousel.css')}}" rel="stylesheet">
+    <link href="{{ url_for('static', filename= 'lib/owlcarousel/owl.transitions.css')}}" rel="stylesheet">
+    <link href="{{ url_for('static', filename= 'lib/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{ url_for('static', filename= 'lib/animate/animate.min.css')}}" rel="stylesheet">
+    <link href="{{ url_for('static', filename= 'lib/venobox/venobox.css')}}" rel="stylesheet">
+
+    <!-- Nivo Slider Theme -->
+    <link href="{{ url_for('static', filename= 'css/nivo-slider-theme.css')}}" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="{{ url_for('static', filename= 'css/style.css')}}" rel="stylesheet">
+
+    <!-- Responsive Stylesheet File -->
+    <link href="{{ url_for('static', filename= 'css/responsive.css')}}" rel="stylesheet">
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example">
+
+<div id="preloader"></div>
+    <header>
+        <!-- header-area start -->
+        <div id="sticker" class="header-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+
+                        <!-- Navigation -->
+                        <nav class="navbar navbar-default">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                        data-target=".bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <!-- Brand -->
+                                <a class="navbar-brand page-scroll sticky-logo" href="index.html">
+                                    <h1>Presitas</h1>
+                                    <!-- Uncomment below if you prefer to use an image logo -->
+                                    <!-- <img src="img/logo.png" alt="" title=""> -->
+                                </a>
+                            </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1"
+                                 id="navbar-example">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="active">
+                                        <a class="page-scroll" href="#home">Beranda</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-scroll" href="#about">Tentang Presitas</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-scroll" href="#services">Fitur</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-scroll" href="#team">Tim</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-scroll" href="#contact">Kontak</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- navbar-collapse -->
+                        </nav>
+                        <!-- END: Navigation -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header-area end -->
+    </header>
+    <!-- header end -->
+
+    <!-- Start Slider Area -->
+    <div id="home" class="slider-area">
+        <div class="bend niceties preview-2">
+            <div id="ensign-nivoslider" class="slides">
+                <img src="{{ url_for('static', filename= 'img/slider/slider1.jpg')}}" alt="" title="#slider-direction-1"/>
+                <img src="{{ url_for('static', filename= 'img/slider/slider2.jpg')}}" alt="" title="#slider-direction-2"/>
+            </div>
+
+            <!-- direction 1 -->
+            <div id="slider-direction-1" class="slider-direction slider-one">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="slider-content">
+                                <!-- layer 1 -->
+                                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s"
+                                     data-wow-delay=".2s">
+                                    <h2 class="title1">Situs Web Prediksi Porositas Batuan Terbaik </h2>
+                                </div>
+                                <!-- layer 2 -->
+                                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                                    <h1 class="title2">Kami dapat membantu Anda untuk mengetahui nilai porositas batuan, tortuositasnya, nilai <i>specific surface area</i>, dan nilai <i>average pore size</i>.</h1>
+                                </div>
+                                <!-- layer 3 -->
+                                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                                    <a class="ready-btn right-btn page-scroll" href="#services">Lihat Fitur</a>
+                                    <a class="ready-btn page-scroll" href="#about">Pelajari</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- direction 2 -->
+            <div id="slider-direction-2" class="slider-direction slider-two">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="slider-content text-center">
+                                <!-- layer 1 -->
+                                <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                                    <h2 class="title1">Situs Web Prediksi Porositas Batuan Terbaik </h2>
+                                </div>
+                                <!-- layer 2 -->
+                                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                                    <h1 class="title2">Prediksi porositas cerdas batuan dengan tingkat akurasi yang tinggi</h1>
+                                </div>
+                                <!-- layer 3 -->
+                                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                                    <a class="ready-btn right-btn page-scroll" href="#services">Lihat Fitur</a>
+                                    <a class="ready-btn page-scroll" href="#about">Pelajari</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Slider Area -->
+    <!-- Start About area -->
+    <div id="about" class="about-area area-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="section-headline text-center">
+                        <h2>Tentang Presitas</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- single-well start-->
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="well-left">
+                        <div class="single-well">
+                            <a href="#">
+                                <img src="{{ url_for('static', filename= 'img/about/1.jpg')}}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- single-well end-->
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="well-middle">
+                        <div class="single-well">
+                            <a href="#">
+                                <h4 class="sec-head">Sebuah Machine Learning</h4>
+                            </a>
+                            <p>
+                                Presitas merupakan salah satu Machine Learning yang merupakan aplikasi dari ilmu kecerdasan
+                                buatan (Artificial Intelligence) untuk menghasilkan model yang otomatis dari sekumpulan data
+                                untuk memberikan kemampuan komputer untuk belajar. Presitas memiliki kemampuan belajar karena
+                                adanya program yang telah ditanamkan. Hasilnya presitas akan terbiasa dalam melihat permasalahan
+                                yang ada dengan apa yang telah dipelajari. Kemampuan belajar yang dimiliki Presitas itu yang
+                                akan membantu kita dalam menentukan batuan berada pada klasifikasi porositas yang mana, bagaimana
+                                tortuositasnya, nilai <i>specific surface area</i>, dan nilai rata-rata pori. 
+                            </p>
+                            <ul>
+                                <li>
+                                    <i class="fa fa-check"></i> Penggunaan mudah <i>(User Friendly)</i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i> Penggunaan dapat dilakukan dimana saja
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i> Gratis
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i> Gambar tidak terbatas
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- End col-->
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    <!-- End About area -->
+    <!-- Start About area -->
+    <div id="about" class="about-area area-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="section-headline text-center">
+                        <h2>Tahap Pembuatan CNN <i><br>(Convolutional Neutral Network)</i> </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- single-well start-->
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="well-left">
+                        <div class="single-well">
+                            <a href="#">
+                                <img src="{{ url_for('static', filename= 'img/about/tahap1.jpg')}}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- single-well end-->
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="well-middle">
+                        <div class="single-well">
+                            <a href="#">
+                                <h4 class="sec-head">1. Pengubahan Citra ke Matriks</h4>
+                            </a>
+                            <p>
+                                Mesin melihat sebuah gambar sebagai kumpulan angka-angka dalam sebuah matriks, 
+                                yang setiap angkanya menandakan intensitas cahaya pada titik tersebut, atau biasa 
+                                disebut pixel. Gambar hitam-putih direpresentasikan menjadi sebuah matriks, sedangkan 
+                                gambar berwarna memiliki tiga buah matriks. Satu matriks untuk representasi cahaya merah, 
+                                satu matriks untuk cahaya hijau, dan terakhir untuk representasi cahaya biru (RGB).
+                            </p>
+                            <a href="#">
+                                <h4 class="sec-head">2. Convolution 2D</h4>
+                            </a>
+                            <p>
+                                Konvolusi (convolution) adalah sebuah proses dimana citra dimanipulasi dengan 
+                                menggunakan eksternal mask / subwindows untuk menghasilkan citra yang baru . 
+                                Operasi konvolusi dilakukan dengan menggeser mask konvolusi pixel per pixel mulai 
+                                dari posisi kiri atas sampai posisi kanan bawah yang sering disebut dengan sliding window. 
+                                Hasil dari proses konvolusi disimpan pada matrik yang baru dengan posisi koordinat yang sama.
+                            </p>
+                            <a href="#">
+                                <h4 class="sec-head">3. Pooling</h4>
+                            </a>
+                            <p>
+                                Bagian berikutnya dari CNN adalah pooling layer. Fungsi dari pooling ini 
+                                adalah untuk mereduksi input secara spasial (mengurangi jumlah parameter) 
+                                dengan operasi down-sampling. Umumnya, metode pooling yang digunakan adalah 
+                                max pooling atau mengambil nilai terbesar dari bagian tersebut. Namun terdapat 
+                                metode pooling lain yang dapat digunakan seperti average pooling atau L2-norm pooling.
+                            </p>
+                            <a href="#">
+                                <h4 class="sec-head">4. Flattening</h4>
+                            </a>
+                            <p>
+                                Membentuk ulang fitur (reshape feature map) menjadi sebuah vector agar 
+                                bisa kita gunakan sebagai input dari fully-connected layer. Data pooling 
+                                yang kita miliki berupa array 2 dimensi kemudian dikonversi menjadi data 
+                                satu dimensi single vector.
+                            </p>
+                            <a href="#">
+                                <h4 class="sec-head">5. Fully Connected Layer</h4>
+                            </a>
+                            <p>
+                                Pada tahapan ini, array 1 dimensi hasil proses Flatenning saling dihubungkan
+                                dengan neuron-neuron sehingga mesin bisa mempelajari setiap pola dari data 
+                                yang diberikan untuk melakukan prediksi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End col-->
+            </div>
+        </div>
+    </div>
+    <!-- End About area -->
+    <!-- Start Service area -->
+    <div id="services" class="services-area area-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="section-headline services-head text-center">
+                        <h2>Fitur</h2>
+                        <form action='/' class="p-3 text-center" method="POST" enctype="multipart/form-data">
+                            <input type="file" class="form-control" name="image">
+                            <br>
+                            <input type="submit" class="btn btn-primary mt-3" value="Mencari nilainya">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="services-contents">
+                    <!-- Start Left services -->
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="services-details">
+                                <div class="single-services">
+                                    <a class="services-icon" href="#">
+                                        <i class="fa fa-code"></i>
+                                    </a>
+                                    <h4>Porositas</h4>
+                                    <p>
+                                        Porositas merupakan ukuran dari ruang kosong di antara material,
+                                        dan merupakan <br>fraksi dari volume ruang kosong terhadap total
+                                        volume, yang bernilai antara 0 dan 1.<br>
+                                        Pada Presitas ini terbagi menjadi 6 klasifikasi, klasifikasi tersebut<br>
+                                        terdiri dari 1-5% ; 6-10% ; 11-15% ; 16-20% ; 21-25% ; 26-30%.<br>
+                                        <b>Rentang porositas batuan tersebut adalah = {{data1}}</b>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end about-details -->
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="services-details">
+                                <div class="single-services">
+                                    <a class="services-icon" href="#">
+                                        <i class="fa fa-adjust"></i>
+                                    </a>
+                                    <h4>Tortuositas</h4>
+                                    <p>
+                                        Tortuositas adalah properti dari kurva yang berliku-liku 
+                                        (memiliki banyak <br>belokan). Tortuositas umumnya digunakan untuk 
+                                        menggambarkan difusi dan aliran <br>fluida dalam media berpori,
+                                        seperti tanah dan salju. Hasilnya akan berupa <br><i>connected</i> atau
+                                        <i>unconnected</i> yang memperlihatkan ada atau ruang untuk <br>meloloskan
+                                        air.<br>
+                                        <b>Jenis turtuositas batuan tersebut adalah = {{data2}}</b> 
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end about-details -->
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <!-- end col-md-4 -->
+                        <div class="row">
+                            <div class="services-details">
+                                <div class="single-services">
+                                    <a class="services-icon" href="#">
+                                        <i class="fa fa-globe"></i>
+                                    </a>
+                                    <h4><i>Specific Surface Area</i></h4>
+                                    <p>
+                                        <i>Specific Surface Area</i> (SSA) adalah properti dari padatan
+                                        sebagai total luas permukaan material persatuan massa (satuan m2/kg atau m2/g) 
+                                        atau volume padat atau curah (satuan m2/m3 atau m−1). Hal tersebut merupakan nilai fisik yang dapat
+                                        digunakan untuk menentukan jenis dan sifat material (contohnya tanah atau salju).
+                                        Hal ini dapat bermanfaat dalam kepentingan khusus untuk adsorpsi, katalisis heterogen, dan reaksi pada permukaan.<br>
+                                        <b>Nilai <i>specific surfacea area</i> batuan tersebut adalah = {{data3}}</b>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end about-details -->
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <!-- end col-md-4 -->
+                        <div class="row">
+                            <div class="services-details">
+                                <div class="single-services">
+                                    <a class="services-icon" href="#">
+                                        <i class="fa fa-align-justify"></i>
+                                    </a>
+                                    <h4><i>Average Pore Size</i></h4>
+                                    <p>
+                                        Ukuran pori umumnya jarak antara dua dinding pori yang berlawanan <br>
+                                        (diameter pori silinder, lebar pori berbentuk slip).<br>
+                                        <b>Nilai <i>average pore size</i> batuan tersebut adalah = {{data4}}</b>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end about-details -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Service area -->
+    <!-- our-skill-area start -->
+    <div class="our-skill-area fix hidden-sm">
+        <div class="test-overly"></div>
+        <div class="skill-bg area-padding-2">
+            <div class="container">
+                <!-- section-heading end -->
+                <div class="row">
+                    <div class="skill-text">
+                        <!-- single-skill start -->
+                        <div class="col-xs-12 col-sm-3 col-md-3 text-center">
+                            <div class="single-skill">
+                                <div class="progress-circular">
+                                    <input type="text" class="knob" value="0" data-rel="75" data-linecap="round"
+                                           data-width="175" data-bgcolor="#fff" data-fgcolor="#EDC9AF" data-thickness=".20"
+                                           data-readonly="true" disabled>
+                                    <h3 class="progress-h4">Sampel yang Digunakan</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single-skill end -->
+                        <!-- single-skill start -->
+                        <div class="col-xs-12 col-sm-3 col-md-3 text-center">
+                            <div class="single-skill">
+                                <div class="progress-circular">
+                                    <input type="text" class="knob" value="0" data-rel="91" data-linecap="round"
+                                           data-width="175" data-bgcolor="#fff" data-fgcolor="#EDC9AF" data-thickness=".20"
+                                           data-readonly="true" disabled>
+                                    <h3 class="progress-h4">Keakuratan Prediksi</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single-skill end -->
+                        <!-- single-skill start -->
+                        <div class="col-xs-12 col-sm-3 col-md-3 text-center">
+                            <div class="single-skill">
+                                <div class="progress-circular">
+                                    <input type="text" class="knob" value="0" data-rel="100" data-linecap="round"
+                                           data-width="175" data-bgcolor="#fff" data-fgcolor="#EDC9AF" data-thickness=".20"
+                                           data-readonly="true" disabled>
+                                    <h3 class="progress-h4"><i>Full Acces</i> (Gratis)</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single-skill end -->
+                        <!-- single-skill start -->
+                        <div class="col-xs-12 col-sm-3 col-md-3 text-center">
+                            <div class="single-skill">
+                                <div class="progress-circular">
+                                    <input type="text" class="knob" value="0" data-rel="85" data-linecap="round"
+                                           data-width="175" data-bgcolor="#fff" data-fgcolor="#EDC9AF" data-thickness=".20"
+                                           data-readonly="true" disabled>
+                                    <h3 class="progress-h4">Bahasa Pemograman</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single-skill end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- our-skill-area end -->
+    <!-- Start team Area -->
+    <div id="team" class="our-team-area area-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="section-headline text-center">
+                        <h2>Tim Kami</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="team-top">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="single-team-member">
+                            <div class="team-img">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename= 'img/team/Khoirul.jpg')}}" alt="">
+                                </a>
+                                <div class="team-social-icon text-center">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/khoirul.haq.9">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/muhammad-itikafi-khoirul-haq/">
+                                                <i class="fa fa-linkedin-square"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-content text-center">
+                                <h4>I'tikaf Khoirul</h4>
+                                <p>Geofisika 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End column -->
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="single-team-member">
+                            <div class="team-img">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename= 'img/team/fadh.jpg')}}" alt="">
+                                </a>
+                                <div class="team-social-icon text-center">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/fadhlan.zamzami.9">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-linkedin-square"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/fadhlan_zam_zami/">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-content text-center">
+                                <h4>Fadhlan Zam-Zami</h4>
+                                <p>Geofisika 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End column -->
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="single-team-member">
+                            <div class="team-img">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename= 'img/team/abib.jpg')}}" alt="">
+                                </a>
+                                <div class="team-social-icon text-center">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/muhammadalif.habiibi">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/malifhabiibi/">
+                                                <i class="fa fa-linkedin-square"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/alifhabiibi_/">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-content text-center">
+                                <h4>M. Alif Habiibi</h4>
+                                <p>Geofisika 2019</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End column -->
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="single-team-member">
+                            <div class="team-img">
+                                <a href="#">
+                                    <img src="{{ url_for('static', filename= 'img/team/saf.jpg')}}" alt="">
+                                </a>
+                                <div class="team-social-icon text-center">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/safhira.askp">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/safhira-aprilia-salsabilla-kusuma-putri-289b4319a/">
+                                                <i class="fa fa-linkedin-square"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/safhiraaprilia/">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-content text-center">
+                                <h4>Safhira Aprilia S. K. P.</h4>
+                                <p>Geofisika 2019</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End column -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Team Area -->
+    <!-- Start contact Area -->
+    <div id="contact" class="contact-area">
+        <div class="contact-inner area-padding">
+            <div class="contact-overly"></div>
+            <div class="container ">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="section-headline text-center">
+                            <h2>Kontak Kami</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Start contact icon column -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="contact-icon text-center">
+                            <div class="single-icon">
+                                <i class="fa fa-mobile"></i>
+                                <p>
+                                    (+622 8428 8828)<br>
+                                    <span>Hari Kerja</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start contact icon column -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="contact-icon text-center">
+                            <div class="single-icon">
+                                <i class="fa fa-envelope-o"></i>
+                                <p>
+                                    Email: geofisikaunpad@mail.unpad.ac.id<br>
+                                    <span>Web: http://geophys.unpad.ac.id/ </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start contact icon column -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="contact-icon text-center">
+                            <div class="single-icon">
+                                <i class="fa fa-map-marker"></i>
+                                <p>
+                                    Lokasi: Jatinangor, Kabupaten Sumedang<br>
+                                    <span>Jawa Barat, Indonesia</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <!-- Start Google Map -->
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <!-- Start Map -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.6962157802723!2d107.77176971431714!3d-6.926868869724997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c4adde26eab5%3A0xef6e7471956afdcd!2sDepartemen%20Geofisika%20FMIPA%20Unpad!5e0!3m2!1sen!2sid!4v1621406329636!5m2!1sen!2sid"
+                                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <!-- End Map -->
+                    </div>
+                    <!-- End Google Map -->
+
+                    <!-- Start  contact -->
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="form contact-form">
+                            <div id="sendmessage">Your message has been sent. Thank you!</div>
+                            <div id="errormessage"></div>
+                            <form action="" method="post" role="form" class="contactForm">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Nama"
+                                           data-rule="minlen:4" data-msg="Please enter at least 4 chars"/>
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email"
+                                           data-rule="email" data-msg="Please enter a valid email"/>
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="subject" id="subject "
+                                           placeholder="Subjek" data-rule="minlen:4"
+                                           data-msg="Please enter at least 8 chars of subject"/>
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" name="message" rows="5" data-rule="required"
+                                              data-msg="Isi pesan" placeholder="Pesan"></textarea>
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit">Kirim Pesan</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- End Left contact -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Area -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="{{ url_for('static', filename= 'lib/jquery/jquery.min.js')}}"></script>
+    <script src="{{ url_for('static', filename= 'lib/bootstrap/js/bootstrap.min.js')}}"></script>
+    <script src="{{ url_for('static', filename= 'lib/owlcarousel/owl.carousel.min.js')}}"></script>
+    <script src="{{ url_for('static', filename= 'lib/venobox/venobox.min.js')}}"></script>
+    <script src="{{ url_for('static', filename= 'lib/knob/jquery.knob.js')}}"></script>
+    <script src="{{ url_for('static', filename= 'lib/wow/wow.min.js')}}"></script>
+    <script src="{{ url_for('static', filename= 'lib/parallax/parallax.js')}}"></script>
+    <script src="{{ url_for('static', filename= 'lib/easing/easing.min.js')}}"></script>
+    <script src="{{ url_for('static', filename= 'lib/nivo-slider/js/jquery.nivo.slider.js')}}" type="text/javascript"></script>
+    <script src="{{ url_for('static', filename= 'lib/appear/jquery.appear.js')}}"></script>
+    <script src="{{ url_for('static', filename= 'lib/isotope/isotope.pkgd.min.js')}}"></script>
+
+    <!-- Contact Form JavaScript File -->
+    <script src="{{ url_for('static', filename= 'contactform/contactform.js')}}"></script>
+
+    <script src="{{ url_for('static', filename= 'js/main.js')}}"></script>
+    
+</body>
+
+</html>
